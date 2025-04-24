@@ -1,5 +1,9 @@
 //import packages
-import java.sql.*;
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.ResultSet;
+import java.sql.SQLException;
+import java.sql.Statement;
 
 public class Main {
     public static void main(String[] args) throws ClassNotFoundException, SQLException {
@@ -17,7 +21,7 @@ public class Main {
         String username="postgres";
         String password="password333";
 
-//        String sqlQuery1="select * from students where sid=1";
+       String sqlQuery1="select * from students where sid=1";
 //        String sqlQuery2="select * from students";
 //        String sqlQuery3="insert into students values (4,'Nami',80)";
 //        String sqlQuery4="update students set smarks=65 where sid=3";
@@ -33,10 +37,10 @@ public class Main {
 //        Create statement
         Statement stat=con.createStatement();
 
-//        ResultSet rs=stat.executeQuery(sqlQuery1);
-//        rs.next();
-//        String name=rs.getString("sname");
-//        System.out.println("Student name is: "+name);
+        ResultSet rs=stat.executeQuery(sqlQuery1);
+        rs.next();
+        String name=rs.getString("sname");
+        System.out.println("Student name is: "+name);
 
 //        ResultSet rs=stat.executeQuery(sqlQuery2);
 //        while (rs.next()) {
@@ -57,17 +61,17 @@ public class Main {
 //        System.out.println(status);k
 
 //        Prepared Statement
-        int id=5;
-        String name="Chopper";
-        int marks=50;
+        // int id=5;
+        // String name="Chopper";
+        // int marks=50;
 
-        String sqlQuery6="insert into students values (?,?,?)";
-        PreparedStatement prepStat=con.prepareStatement(sqlQuery6);
-        prepStat.setInt(1,id);
-        prepStat.setString(2,name);
-        prepStat.setInt(3,marks);
+        // String sqlQuery6="insert into students values (?,?,?)";
+        // PreparedStatement prepStat=con.prepareStatement(sqlQuery6);
+        // prepStat.setInt(1,id);
+        // prepStat.setString(2,name);
+        // prepStat.setInt(3,marks);
 
-        prepStat.execute();
+        // prepStat.execute();
 
         con.close();
         System.out.println("Connection closed");

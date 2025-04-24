@@ -5,7 +5,7 @@ import jakarta.persistence.Id;
 
 @Entity
 public class Student {
-   @Id 
+    @Id
     private int sid;
     private String sname;
     private int smarks;
