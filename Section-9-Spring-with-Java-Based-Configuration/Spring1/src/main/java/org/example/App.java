@@ -1,22 +1,26 @@
 package org.example;
 
+import org.example.config.AppConfig;
 import org.springframework.context.ApplicationContext;
+import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
 public class App
 {
     public static void main( String[] args )
     {
-        System.out.println( "Hello World!" );
+        ApplicationContext context=new AnnotationConfigApplicationContext(AppConfig.class);
 
-        ApplicationContext context=new ClassPathXmlApplicationContext("spring.xml");
-        Alien obj1= (Alien) context.getBean("alien");
-//        obj1.setAge(20);
-        System.out.println(obj1.getAge());
-        obj1.code();
+//        Desktop dt=context.getBean("com2",Desktop.class); //using bean name
 
-//        Desktop desk= (Desktop) context.getBean("com2");
-//        Desktop desk=context.getBean("com2",Desktop.class); //get Bean with className in parameter
-        Desktop desk2=context.getBean(Desktop.class); //this will search byType in spring.xml
+//        Desktop dt=context.getBean(Desktop.class);
+//        dt.compile();
+//
+//        Desktop dt2=context.getBean(Desktop.class); //using Scope
+//        dt2.compile();
+
+        Alien alien=context.getBean(Alien.class);
+        System.out.println(alien.getAge());
+        alien.code();
     }
 }

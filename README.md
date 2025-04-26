@@ -23,3 +23,15 @@
 - lazy init bean
 - getbean by type
 - inner bean
+
+
+## Section 9: Spring with Java Based Configuration
+- Java based config
+- Bean name
+- scope annotation
+- autowire
+- primary and qualifier
+- component streotype annotation
+- autowire on field, constructor and setter(preferable)
+- primary annotation
+- scope and value annotation
