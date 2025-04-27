@@ -27,6 +27,46 @@
 - Method Reference
 - Constructor Reference
 
+## Section 4: Maven
+- Introduction
+- Maven in IDE
+- Getting Dependencies
+- Effective POM
+- Maven Archetype
+- How Maven works?
+
+## Section 5: JDBC (Java Database Connetivity)
+- Introduction
+- Postgres Setup
+- JDBC steps
+- Postgres Library jar
+- Connecting Java and DB
+- Execute and Process
+- Fetching all Records
+- CRUD operations
+- Problems with Statement
+- PreparedStatement
+
+## Hibernate
+- Introduction
+- Project setup
+- Save data
+- Show SQL config
+- Refactoring
+- Fetching the data
+- Update and Delete objects
+- Changing Table and Column names
+- Embeddable
+- Mapping Relationship Theory
+- OneToOne, OneToMany, ManyToOne, ManyToMany mappings
+- Hibernate Eager and Lazy Fetch
+- Hibernate Caching
+- HQL Introduction
+- Fetching Data using HQL
+- Fetching  with filter and specific properties
+- Get vs Load
+- Level 2 cache using Ehcache
+
 ## Section 7: Spring Getting Started
 - Introduction
 - Inversion of Control(IoC)
@@ -62,3 +102,19 @@
 - autowire on field, constructor and setter(preferable)
 - primary annotation
 - scope and value annotation
+
+## Section 10: Moving to Spring Boot
+- Spring to Spring Boot
+- using Annotations in Spring Boot
+- Different Layers
+- Service Layer
+- Repository Layer
+
+## Section 11: Spring JDBC
+- Introduction
+- Creating a Spring JDBC Project
+- Servie and Repository
+- JDBCtemplate
+- Schema and Data files
+- Rowmapper
+- Spring JDBC Postgres
