@@ -1,5 +1,72 @@
 # Java-Spring-FrameWork-6-with-Spring-Boot-3
 
+## Section 1: Course Introduction
+
+## Section 2: Core Java
+
+## Section 3: Advance Java
+- Simple quiz project
+- Abstract keyword
+- Inner class
+- Anonymous Inner class
+- Abstract and Anonymous Inner class
+- Interfaces, Need of Interface
+- Enum, Enum in If and Switch, Enum Class
+- Annotation
+- Types of interface
+- Functional Interface
+- Lambda Expression, with return
+- Exception, try catch, try with multiple catch, hierarchy, throw keyword, Custom Exception, throws keyword
+- User Input using BufferedReader and Scanner
+- Try with resources
+- Threads, multiple threads, Thread priority and sleep, Runnable vs Thread, Race Condition, Thread states
+- Collection Framework, List, Set, Map
+- Comparator vs Comparable
+- Need of Stream API, forEach method, Map Filter Reduce Sorted, Parallel Stream
+- Optional class
+- Method Reference
+- Constructor Reference
+
+## Section 4: Maven
+- Introduction
+- Maven in IDE
+- Getting Dependencies
+- Effective POM
+- Maven Archetype
+- How Maven works?
+
+## Section 5: JDBC (Java Database Connetivity)
+- Introduction
+- Postgres Setup
+- JDBC steps
+- Postgres Library jar
+- Connecting Java and DB
+- Execute and Process
+- Fetching all Records
+- CRUD operations
+- Problems with Statement
+- PreparedStatement
+
+## Hibernate
+- Introduction
+- Project setup
+- Save data
+- Show SQL config
+- Refactoring
+- Fetching the data
+- Update and Delete objects
+- Changing Table and Column names
+- Embeddable
+- Mapping Relationship Theory
+- OneToOne, OneToMany, ManyToOne, ManyToMany mappings
+- Hibernate Eager and Lazy Fetch
+- Hibernate Caching
+- HQL Introduction
+- Fetching Data using HQL
+- Fetching  with filter and specific properties
+- Get vs Load
+- Level 2 cache using Ehcache
+
 ## Section 7: Spring Getting Started
 - Introduction
 - Inversion of Control(IoC)
@@ -35,3 +102,19 @@
 - autowire on field, constructor and setter(preferable)
 - primary annotation
 - scope and value annotation
+
+## Section 10: Moving to Spring Boot
+- Spring to Spring Boot
+- using Annotations in Spring Boot
+- Different Layers
+- Service Layer
+- Repository Layer
+
+## Section 11: Spring JDBC
+- Introduction
+- Creating a Spring JDBC Project
+- Servie and Repository
+- JDBCtemplate
+- Schema and Data files
+- Rowmapper
+- Spring JDBC Postgres
