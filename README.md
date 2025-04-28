@@ -118,3 +118,23 @@
 - Schema and Data files
 - Rowmapper
 - Spring JDBC Postgres
+
+## Section 12: Spring Boot Web
+- Web App Introduction
+- Creating a Servlet Project
+- Running Tomcat
+- Servlet Mapping
+- Responding to the Client
+- Introduction to MVC
+- Creating a Spring Boot Web App Project
+- Creating a JSP page
+- Creating a Controller
+- Request Mapping
+- Sending data to Controller
+- Accepting Data the servlet way
+- Display Data on Result page
+- RequestParam
+- Model Object
+- Setting Prefix and Suffix
+- ModelAndView
+- ModelAttribute
