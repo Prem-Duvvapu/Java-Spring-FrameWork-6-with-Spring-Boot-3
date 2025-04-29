@@ -138,3 +138,19 @@
 - Setting Prefix and Suffix
 - ModelAndView
 - ModelAttribute
+
+## Section 13: Exploring Web MVC without Spring Boot
+- Introduction
+- Creating a Spring MVC Project
+- Running Tomcat in Eclipse
+- Dispatcher Servlet
+- Configuring the Dispatcher Servlet
+- Internal Resource View Resolver
+
+## Section 14: Building a Project(Job App)
+- Creating a Project
+- Understanding Views
+- Home and AddJob Controller
+- Handling Form
+- Working with Layers
+- View Data
