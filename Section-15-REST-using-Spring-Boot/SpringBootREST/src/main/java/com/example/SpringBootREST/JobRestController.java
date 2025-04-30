@@ -14,6 +14,7 @@ public class JobRestController {
     @Autowired
     private JobService service;
 
+//    @GetMapping(path="jobPosts", produces = {"application/xml"})
     @GetMapping("jobPosts")
     public List<JobPost> getAllJobs() {
         return service.getAllJobs();
@@ -24,10 +25,22 @@ public class JobRestController {
         return service.getJob(postId);
     }
 
+//    @PostMapping(path="/jobPost", consumes = {"application/json"})
     @PostMapping("/jobPost")
     public JobPost addJob(@RequestBody JobPost jobPost) {
         service.addJob(jobPost);
         return service.getJob(jobPost.getPostId());
     }
 
+    @PutMapping("/jobPost")
+    public JobPost updateJob(@RequestBody JobPost jobPost) {
+        service.updateJob(jobPost);
+        return service.getJob(jobPost.getPostId());
+    }
+
+    @DeleteMapping("/jobPost/{postId}")
+    public String deleteJob(@PathVariable int postId) {
+        service.deleteJob(postId);
+        return "Deleted";
+    }
 }
