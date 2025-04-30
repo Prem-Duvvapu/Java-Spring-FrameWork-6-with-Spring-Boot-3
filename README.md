@@ -154,3 +154,18 @@
 - Handling Form
 - Working with Layers
 - View Data
+
+## Section 15: REST using Spring Boot
+- Introduction
+- What is REST
+- Http Methods
+- Understanding the React UI
+- Working with Postman
+- Creating a REST Controller
+- Connecting React and Spring
+- PathVariable
+- Sending Data and RequestBody
+- Put and Delete Mapping
+- Content Negotiation
+
+## Section 16: Spring Data JPA
