@@ -169,3 +169,30 @@
 - Content Negotiation
 
 ## Section 16: Spring Data JPA
+- Introduction
+- What is ORM and JPA
+- Creating Table And Inserting Data
+- findAll
+- findById
+- JPQL Query
+- Update and Delete
+- JPA in Job App
+- Loading Data and Entity
+- Search by Keyword
+- React UI for Search
+- React UI for Update and Delete
+
+## Section 17: Project using Spring Boot MVC
+- Introduction
+- Running and Understanding the React UI code
+- Spring Boot Project Setup
+- Creating Product Model and Table
+- Fetching All Products from DB
+- ResponseEntity
+- Fetch Produt By Id
+- Add Product with Image
+- Fetch Product Image
+- Update and Delete Product
+- Search
+
+## Section 18: Spring Data Rest
