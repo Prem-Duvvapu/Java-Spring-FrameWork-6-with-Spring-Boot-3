@@ -196,3 +196,19 @@
 - Search
 
 ## Section 18: Spring Data Rest
+- Introduction
+- Creating a Data Rest Project
+- Running the Project
+- Update and Delete
+
+## Section 19: Spring AOP
+- Introduction
+- Logging the Calls
+- AOP Concepts
+- Before Advice
+- JoinPoint
+- After Advice
+- Performance Monitoring using Around Advice
+- Validating the input using Around Advice
+
+## Section 20: Spring Security
