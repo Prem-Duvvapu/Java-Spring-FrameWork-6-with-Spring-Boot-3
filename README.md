@@ -212,3 +212,34 @@
 - Validating the input using Around Advice
 
 ## Section 20: Spring Security
+- Importance of Security
+- OWASP Top 10
+- Creating a Spring Security Project
+- default login form
+- Spring Security Filters
+- Session ID
+- Setting username and password
+- Basic Auth using Postman
+- What is CSRF
+- Error without CSRF Token
+- Sending CSRF Token
+- Same Site Strict
+- Security Configuration
+- Disabling CSRF Token
+- Without lambda
+- Getting ready for user database
+- Working with Multiple Users
+- Creating User table and db properties
+- Authentication Provider
+- Creating a UserDetailsService
+- User Repository
+- UserDetails and UserPrincipal
+- What is Bcrypt
+- User Registration
+- Bcrypt Encoding for User Registration
+- Setting Password Encoder
+
+## Section 21: Securing Job App
+
+
+## Section 22: JWT(JSON Web Token) and OAuth2
