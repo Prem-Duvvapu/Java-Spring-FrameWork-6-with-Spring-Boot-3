@@ -243,3 +243,7 @@
 
 
 ## Section 22: JWT(JSON Web Token) and OAuth2
+- Encryption and Decryption
+- Digital Signature
+- Why JWT
+- 
