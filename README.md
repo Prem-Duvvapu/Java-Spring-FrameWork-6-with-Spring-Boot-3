@@ -246,4 +246,37 @@
 - Encryption and Decryption
 - Digital Signature
 - Why JWT
-- 
+- What is JWT
+- Project Setup for JWT
+- Custom Login
+- Generating token
+- Token Generated
+- Creating a JWT filter
+- Setting AuthToken in SecurityContext
+- Validating token
+- JWT Summary
+- Implementing OAuth2
+- Google Oauth2 Login
+- Github Login
+
+## Section 23: Docker
+- Introduction
+- What problem are we trying to solve
+- Solution with Virtualization
+- Solution with Containerization
+- What is Docker
+- Docker Setup
+- Running First Container
+- Docker commands
+- Docker Architecture
+- Running JDK Docker Container
+- Packaging The Spring Boot Web App
+- Running Spring Boot Web App On Docker
+- Docker File For Docker Images
+- Web App With Postgres
+- Docker Compose
+- Running Multiple Containers
+- Docker Volumes
+
+
+## Section 24: Cloud Deployment
