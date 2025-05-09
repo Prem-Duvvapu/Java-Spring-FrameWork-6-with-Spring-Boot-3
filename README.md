@@ -241,7 +241,6 @@
 
 ## Section 21: Securing Job App
 
-
 ## Section 22: JWT(JSON Web Token) and OAuth2
 - Encryption and Decryption
 - Digital Signature
@@ -300,3 +299,19 @@
 - What are Microservices
 - Cloud Native (12-factor app)
 - Quiz App Project Setup
+- Building Microservices Introduction
+- Creating a Question Service
+- Running the Question Service
+- Creating a Quiz Service
+- Need of Service Registry
+- Working with Feign
+- Microservice is calling a Microservice
+- Completing the 2 Microservices
+- Load Balancing
+- API Gateway
+
+## Section 26: Spring AI
+
+## Section 27: Git
+
+## Section 28: DSA
