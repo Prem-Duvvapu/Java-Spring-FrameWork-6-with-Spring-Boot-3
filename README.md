@@ -47,7 +47,7 @@
 - Problems with Statement
 - PreparedStatement
 
-## Hibernate
+## Section 6: Hibernate
 - Introduction
 - Project setup
 - Save data
