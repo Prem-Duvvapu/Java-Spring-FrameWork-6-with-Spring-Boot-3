@@ -280,3 +280,23 @@
 
 
 ## Section 24: Cloud Deployment
+- What is Cloud
+- Which cloud
+- AWS account signup process
+- Simple Web App Project
+- Deploying on Elastic Beanstalk
+- Spring Project with DB
+- Creating database in AWS RDS
+- Deploying app on Beanstalk
+- Introduction to ECS
+- Configuring AWS CLI
+- Creating Cluster and Task
+- Running the task for Postgres
+- Pushing the docker image to ECR
+- Running Java App Task
+
+
+## Section 25: Microservices
+- What are Microservices
+- Cloud Native (12-factor app)
+- Quiz App Project Setup
